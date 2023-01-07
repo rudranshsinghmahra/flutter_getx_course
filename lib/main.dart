@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_getx_course/view/custom_screen_four.dart';
 import 'package:flutter_getx_course/view/custom_screen_one.dart';
 import 'package:flutter_getx_course/view/custom_screen_three.dart';
 import 'package:flutter_getx_course/view/custom_screen_two.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
           page: () => const CustomScreenOne(),
         ),
       ],
-      home: CustomScreenThree(),
+      home: CustomClassFour(),
     );
   }
 }
